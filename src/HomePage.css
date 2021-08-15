@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.home {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  justify-content: center;
+}
+.home>ul{
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.top{
+    margin: 0 auto;
+}
+.userDetails{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;  
+    align-items: center; 
+}
+.userDetails>img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+.userDetails>h1{
+    margin-left: 12px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.logoutIcon{
+    margin-left: 20px;
+    width:29px;
+    height:29px;
+    background-color: rgb(127, 255, 202);
+    border-radius: 100px;
+}
+
+.verticalLine{
+    border: 0.1px solid grey;
+    max-width: 78%;
+    margin: 0 auto;
+    margin-bottom: 12px;
+}
+.inputAreaOfHome{
+    border: 1px solid rgba(128, 128, 128, 0.74);
+    overflow: hidden;
+    width:fit-content;
+    margin: 0 auto;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+}
+.inputAreaOfHome>input{
+    border: none;
+    font-size: 15px;
+    padding: 8;
+}
+.notFoundContainer>img{
+  max-width: 700px;
+  height: auto;
+  object-fit: fill;
+}
+@media screen and (max-width:900px) {
+    .notFoundContainer>img{
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+    }
+}
+/* .todoItem{
+    margin: 0 auto;
+    overflow: hidden;
+}
+ */
+

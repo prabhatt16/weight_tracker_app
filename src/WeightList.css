@@ -1,0 +1,15 @@
+.weight_list {
+  text-align: left;
+}
+.cardBtn{
+  display: flex;
+  justify-content: space-between;
+}
+.cardContainer{
+      margin: 0 auto;
+      margin-bottom:20px;
+      width:420px;
+      overflow: hidden;
+      border-radius: 8px;
+      background-color:antiquewhite;
+}
